@@ -18,7 +18,7 @@ export class NewsProvider {
 
     // don't have the data yet
     return new Promise(resolve => {
-      this.http.get('http://10.0.1.9:4567/news')
+      this.http.get('http://localhost:4567/news')
         .map(res => res.json())
         .subscribe(data => {
           this.data = data;
