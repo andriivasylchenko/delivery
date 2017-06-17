@@ -18,7 +18,7 @@ export class EmployeeProvider {
 
     // don't have the data yet
     return new Promise(resolve => {
-      this.http.get('http://10.0.1.9:4567/employees')
+      this.http.get('http://localhost:4567/employees')
         .map(res => res.json())
         .subscribe(data => {
           this.data = data;
