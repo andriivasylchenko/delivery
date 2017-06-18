@@ -1,0 +1,19 @@
+<ion-content>
+  <ion-list>
+    <template ngFor let-time [ngForOf]="times">
+      <ion-item-divider color="secondary"> {{time}}:00</ion-item-divider>
+      <ion-item *ngFor="let item of delivery | timedivider: [time]" [style.text-decoration]="item.delivered ? 'line-through' : 'none'"
+        (click)="displayDetails(item)">
+        <ion-avatar item-left>
+          <div class="road-time">{{item.duration}}</div>
+          <p class="distance">{{item.distance}}</p>
+        </ion-avatar>
+
+        <h2 class="address">{{item.address}}</h2>
+        <p>{{item.name}}</p>
+      </ion-item>
+
+    </template>
+  </ion-list>
+
+</ion-content>

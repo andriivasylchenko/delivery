@@ -1,0 +1,14 @@
+page-rating {
+    .capitalize {
+        text-transform: capitalize;
+    }
+
+    ion-thumbnail {
+        min-width: 4rem!important;
+        min-height: 4rem!important;
+        img {
+            width: 50px!important;
+            height: 50px!important;
+        }
+    }
+}
