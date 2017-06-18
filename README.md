@@ -5,6 +5,7 @@ This project is a part of IBM Mobile Foundation 8.0 lab series based on hybrid d
 ## Lab 2.75 Securing backend calls with user authentication
 
 **Description:** Create security check to validate user credentials and implement client-side handler to grab them. Secure adapter procedures with scope and map it to security check
+
 **Time to complete:** 50 minutes 
 
 *Below you can find gists that may be useful during lab execution*. 
