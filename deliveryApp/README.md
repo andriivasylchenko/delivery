@@ -1,26 +1,55 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+*Still under development*
 
-## How to use this template
+This project is a part of IBM Mobile Foundation 8.0 lab series based on hybrid development approach and Ionic framework 3.4.2. Lab series consist of video excersises that listener should repeat on prepare VM image. 
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## Lab 2.75 Securing backend calls with user authentication
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+**Description:** Create security check to validate user credentials and implement client-side handler to grab them. Secure adapter procedures with scope and map it to security check
+**Time to complete:** 50 minutes 
 
-### With the Ionic CLI:
+*Below you can find gists that may be useful during lab execution*. 
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+```typescript
+  AuthInit(){
+    this.AuthHandler = WL.Client.createSecurityCheckChallengeHandler("UserLogin");
+    this.AuthHandler.handleChallenge = ((response) => {
+      console.debug('--> inside handleChallenge');
+      if(response.errorMsg) {
+        var msg = response.errorMsg + '<br>';
+        msg += 'Remaining attempts: ' + response.remainingAttempts;
+      }
+      this.displayLogin(msg);
+    })
+  }
 ```
 
-Then, to run it, cd into `myTabs` and run:
+```typescript
+displayLogin(msg){
+    let prompt = this.alertCtrl.create({
+      title: 'Login',
+      message: msg,
+      inputs: [
+        {
+          name: 'username',
+          placeholder: 'Username'
+        },
+        {
+          name: 'password',
+          placeholder: 'Password',
+          type: 'password'
+        },
+      ],
+      buttons: [
+        {
+          text: 'Login',
+          handler: data => {
+            console.log('--> Trying to auth with user', data.username);
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+            this.AuthHandler.submitChallengeAnswer(data);
+          }
+        }
+      ]
+    });
+    prompt.present();
+  }
 ```
-
-Substitute ios for android if not on a Mac.
-
