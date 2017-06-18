@@ -49,7 +49,7 @@
     <plugin name="cordova-plugin-statusbar" spec="2.2.2" />
     <plugin name="cordova-plugin-device" spec="1.1.4" />
     <plugin name="cordova-plugin-splashscreen" spec="~4.0.1" />
-    <engine name="android" spec="~6.2.3" />
+    <engine name="android" spec="6.2.3" />
     <mfp:android>
         <mfp:sdkChecksum>1341209973</mfp:sdkChecksum>
         <mfp:appChecksum>0</mfp:appChecksum>
@@ -90,7 +90,7 @@
     <mfp:server runtime="mfp" url="http://192.168.42.169:9080" />
     <mfp:directUpdateAuthenticityPublicKey />
     <mfp:languagePreferences>en</mfp:languagePreferences>
-    <plugin name="cordova-plugin-mfp" spec="~8.0.2017060910" />
-    <plugin name="cordova-plugin-mfp-push" spec="~8.0.2017012410" />
-    <plugin name="cordova-plugin-mfp-jsonstore" spec="~8.0.2017033009" />
+    <plugin name="cordova-plugin-mfp" spec="8.0.2017060910" />
+    <plugin name="cordova-plugin-mfp-push" spec="8.0.2017012410" />
+    <plugin name="cordova-plugin-mfp-jsonstore" spec="8.0.2017033009" />
 </widget>
