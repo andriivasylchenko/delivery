@@ -29,7 +29,7 @@ export class MyApp {
       console.debug('--> inside handleChallenge');
       if(response.errorMsg) {
         var msg = response.errorMsg + '<br>';
-        msg += 'Remaining ateempts: ' + response.remainingAttempts;
+        msg += 'Remaining attempts: ' + response.remainingAttempts;
       }
       this.displayLogin(msg);
     })
