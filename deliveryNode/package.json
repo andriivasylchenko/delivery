@@ -1,0 +1,20 @@
+{
+  "name": "deliveryNode",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.16.0",
+    "compression": "1.6.2",
+    "cors": "2.8.1",
+    "express": "4.13.x",
+    "passport-mfp-token-validation": "^8.0.2017010917",
+    "path": "0.12.7"
+  },
+  "repository": {},
+  "engines": {
+    "node": "4.x"
+  }
+}

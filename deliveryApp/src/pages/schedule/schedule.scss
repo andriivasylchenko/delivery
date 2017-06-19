@@ -1,0 +1,15 @@
+page-schedule {
+    .address {
+        text-overflow: ellipsis;
+        overflow-x: hidden;
+    }
+
+    .distance {
+        margin-top: 3px!important;
+    }
+
+    .road-time {
+        margin-top: 3px!important;
+        color: map-get($colors, primary);
+    }
+}
