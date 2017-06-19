@@ -27,6 +27,9 @@ function getRating() {
 }
 ```
 
+link to adapters repository
+https://github.com/MobileFirst-Platform-Developer-Center/Adapters/tree/release80
+
 ```java
 JSONObject result = JSONObject.parse(JSONResponse.getEntity().getContent());
 String json = result.toString();
