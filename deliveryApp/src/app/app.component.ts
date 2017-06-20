@@ -1,0 +1,79 @@
+import { Component, Renderer } from '@angular/core';
+import { AlertController, Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+
+import { TabsPage } from '../pages/tabs/tabs';
+
+import { PushProvider } from '../providers/push/push';
+import { StorageProvider } from '../providers/storage/storage';
+import { NewsProvider } from '../providers/news/news-provider';
+
+@Component({
+  templateUrl: 'app.html',
+  providers: [PushProvider, StorageProvider]
+})
+export class MyApp {
+  rootPage:any = TabsPage;
+  public AuthHandler:any;
+
+  constructor(platform: Platform, statusBar: StatusBar, public storage: StorageProvider, public renderer: Renderer, public news: NewsProvider,public push: PushProvider, public alertCtrl: AlertController, splashScreen: SplashScreen) {
+    platform.ready().then(() => {
+      // Okay, so the platform is ready and our plugins are available.
+      // Here you can do any higher level native things you might need.
+      statusBar.styleDefault();
+      splashScreen.hide();
+    });
+
+    renderer.listenGlobal('document', 'mfpjsonjsloaded', () => {
+      console.debug('--> MFP JSON API loaded');
+
+      this.storage.init();
+      this.news.load();
+    })
+
+    this.AuthInit();
+    this.push.init();
+  }
+
+  AuthInit(){
+    this.AuthHandler = WL.Client.createSecurityCheckChallengeHandler("UserLogin");
+    this.AuthHandler.handleChallenge = ((response) => {
+      console.debug('--> inside handleChallenge');
+      if(response.errorMsg) {
+        var msg = response.errorMsg + '<br>';
+        msg += 'Remaining ateempts: ' + response.remainingAttempts;
+      }
+      this.displayLogin(msg);
+    })
+  }
+
+  displayLogin(msg){
+    let prompt = this.alertCtrl.create({
+      title: 'Login',
+      message: msg,
+      inputs: [
+        {
+          name: 'username',
+          placeholder: 'Username'
+        },
+        {
+          name: 'password',
+          placeholder: 'Password',
+          type: 'password'
+        },
+      ],
+      buttons: [
+        {
+          text: 'Login',
+          handler: data => {
+            console.log('--> Trying to auth with user', data.username);
+
+            this.AuthHandler.submitChallengeAnswer(data);
+          }
+        }
+      ]
+    });
+    prompt.present();
+  }
+}
