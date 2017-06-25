@@ -1,14 +1,10 @@
-*Still under development*
+## Lab 2.77 Добавление возможностей получения push уведомлений в мобильном приложении
 
-This project is a part of IBM Mobile Foundation 8.0 lab series based on hybrid development approach and Ionic framework 3.4.2. Lab series consist of video excersises that listener should repeat on prepare VM image. 
+**Описание:** Используя Push API, зарегистрируйте устройство и подпишитесь на рассылку по тегу. Отправьте push уведомления с сервера и получите его на устройстве
 
-## Lab 2.77 Add push notification capabilities to mobile app and configure server side to send push messages
+**Время выполнения:** 35 минут 
 
-**Description:** Using new Push API register device and subscribe for a custom tag to receive Push messages 
-
-**Time to complete:** 35 minutes 
-
-*Below you can find gists that may be useful during lab execution*. 
+*Ниже вы можете найти команды и примеры кода, которые помогут вам в процессе выполнения лабораторной работы*. 
 
 Link to article in developer center http://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notifications/sending-notifications/
 
