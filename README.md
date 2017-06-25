@@ -1,14 +1,10 @@
-*Still under development*
+## Lab 2.76 Аутентификация внешних ресурсов при помощи Mobile Foundation
 
-This project is a part of IBM Mobile Foundation 8.0 lab series based on hybrid development approach and Ionic framework 3.4.2. Lab series consist of video excersises that listener should repeat on prepare VM image. 
+**Описание:** Добавить validator к Node.js Mock Server для проверки token через Mobile Foundation и предотвращение небезопасных вызовов 
 
-## Lab 2.76 Authenticating external resource using MobieFirst Foundation
+**Время выполнения:** 30 минут 
 
-**Description:** Add validator to Node.js Mock Server to check authentication token on MobileFirst Foundation and prevent unauthenticated calls 
-
-**Time to complete:** 25 minutes 
-
-*Below you can find gists that may be useful during lab execution*. 
+*Ниже вы можете найти команды и примеры кода, которые помогут вам в процессе выполнения лабораторной работы*. 
 
 Link to article in developer center http://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/authentication-and-security/protecting-external-resources/
 
