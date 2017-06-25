@@ -1,14 +1,10 @@
-*Still under development*
+## Lab 2.73 Добавление SDK и регистрация приложения на сервере
 
-This project is a part of IBM Mobile Foundation 8.0 lab series based on hybrid development approach and Ionic framework 3.4.2. Lab series consist of video excersises that listener should repeat on prepare VM image. 
+**Описание:** Установка Mobile Foundation client-side sdk для cordova приложения, регистрация приложения на сервере и контроль загрузки библиотек
 
-## Lab 2.73 Adding MobileFirst SDK and registering app on server
+**Время выполнения:** 30 минут 
 
-**Description:** Install MobileFirst client-side sdk for cordova, register application and perform a proper init by catching SDK init event. Get familiar with basic application bootstrap process. 
-
-**Time to complete:** 30 minutes 
-
-*Below you can find gists that may be useful during lab execution*. 
+*Ниже вы можете найти команды и примеры кода, которые помогут вам в процессе выполнения лабораторной работы*. 
 
 ```bash
 git clone -b initial https://github.com/andriivasylchenko/delivery.git
