@@ -14,13 +14,19 @@
 * 7-zip архиваторв
 
 [Лабораторные работы на youtube]()
+
 [Виртуальная машина 5,5 ГБ](https://www.dropbox.com/s/n82ew21r8gfe97y/mfp-seminar-4.7z?dl=1)
 
 Описание и задачи каждой лабораторной работы можно найти в соответствующей ветке
 
 [Lab 2.73 Adding MobileFirst SDK and registering app on server](https://github.com/andriivasylchenko/delivery/tree/lab2.73)
+
 [Lab 2.74 Using Java and Javascript adapters to perform backend calls](https://github.com/andriivasylchenko/delivery/tree/lab2.74)
+
 [Lab 2.75 Securing backend calls with user authentication](https://github.com/andriivasylchenko/delivery/tree/lab2.75)
+
 [Lab 2.76 Authenticating external resource using MobieFirst Foundation](https://github.com/andriivasylchenko/delivery/tree/lab2.76)
+
 [Lab 2.77 Add push notification capabilities to mobile app and configure server side to send push messages](https://github.com/andriivasylchenko/delivery/tree/lab2.77)
+
 [Lab 2.78 Adding JSONStore to hybrid mobile app](https://github.com/andriivasylchenko/delivery/tree/lab2.78)
