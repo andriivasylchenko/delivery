@@ -1,14 +1,10 @@
-*Still under development*
+## Lab 2.78 Добавление и использование JSONStore в гибридном мобильном приложении
 
-This project is a part of IBM Mobile Foundation 8.0 lab series based on hybrid development approach and Ionic framework 3.4.2. Lab series consist of video excersises that listener should repeat on prepare VM image. 
+**Описание:** Сохраните новости в JSONStore, после чего достаньте их из хранилища и отобразите на странице
 
-## Lab 2.78 Adding JSONStore to hybrid mobile app
+**Время выполнения:** 50 минут 
 
-**Description:** Store news messages inside JSONStore and display them on news tab 
-
-**Time to complete:** 50 minutes 
-
-*Below you can find gists that may be useful during lab execution*. 
+*Ниже вы можете найти команды и примеры кода, которые помогут вам в процессе выполнения лабораторной работы*. 
 
 Link to article in developer center http://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application-development/jsonstore/cordova/
 
