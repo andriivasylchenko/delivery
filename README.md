@@ -1,14 +1,10 @@
-*Still under development*
+## Lab 2.75 Обеспечения безопасности backend вызовов
 
-This project is a part of IBM Mobile Foundation 8.0 lab series based on hybrid development approach and Ionic framework 3.4.2. Lab series consist of video excersises that listener should repeat on prepare VM image. 
+**Описание:** Создать security check для валидации логина и пароль пользователя, после чего внедрить handler на стороне приложения для обработки.  Обезопасить процедуры в адаптерах с помощью созданного security check
 
-## Lab 2.75 Securing backend calls with user authentication
+**Время выполнения:** 50 минут 
 
-**Description:** Create security check to validate user credentials and implement client-side handler to grab them. Secure adapter procedures with scope and map it to security check
-
-**Time to complete:** 50 minutes 
-
-*Below you can find gists that may be useful during lab execution*. 
+*Ниже вы можете найти команды и примеры кода, которые помогут вам в процессе выполнения лабораторной работы*. 
 
 ```typescript
   AuthInit(){
