@@ -13,20 +13,20 @@
 * Последняя версия VMWare Player/Workstation
 * 7-zip архиваторв
 
-[Лабораторные работы на youtube]()
+[Лабораторные работы на youtube](https://www.youtube.com/watch?v=vOtMHJlf18s&list=PLjwX5wNxSyMfgCzBSfP3N42KwdLtBTelc)
 
 [Виртуальная машина 5,5 ГБ](https://www.dropbox.com/s/n82ew21r8gfe97y/mfp-seminar-4.7z?dl=1)
 
 Описание и задачи каждой лабораторной работы можно найти в соответствующей ветке
 
-[Lab 2.73 Adding MobileFirst SDK and registering app on server](https://github.com/andriivasylchenko/delivery/tree/lab2.73)
+[Lab 2.74 Использование Java и Javascript адаптеров для получения данных](https://github.com/andriivasylchenko/delivery/tree/lab2.73)
 
-[Lab 2.74 Using Java and Javascript adapters to perform backend calls](https://github.com/andriivasylchenko/delivery/tree/lab2.74)
+[Lab 2.74 Использование Java и Javascript адаптеров для получения данных](https://github.com/andriivasylchenko/delivery/tree/lab2.74)
 
-[Lab 2.75 Securing backend calls with user authentication](https://github.com/andriivasylchenko/delivery/tree/lab2.75)
+[Lab 2.75 Обеспечения безопасности backend вызовов](https://github.com/andriivasylchenko/delivery/tree/lab2.75)
 
-[Lab 2.76 Authenticating external resource using MobieFirst Foundation](https://github.com/andriivasylchenko/delivery/tree/lab2.76)
+[Lab 2.76 Аутентификация внешних ресурсов при помощи Mobile Foundation](https://github.com/andriivasylchenko/delivery/tree/lab2.76)
 
-[Lab 2.77 Add push notification capabilities to mobile app and configure server side to send push messages](https://github.com/andriivasylchenko/delivery/tree/lab2.77)
+[Lab 2.77 Добавление возможностей получения push уведомлений в мобильном приложении](https://github.com/andriivasylchenko/delivery/tree/lab2.77)
 
-[Lab 2.78 Adding JSONStore to hybrid mobile app](https://github.com/andriivasylchenko/delivery/tree/lab2.78)
+[Lab 2.78 Добавление и использование JSONStore в гибридном мобильном приложении](https://github.com/andriivasylchenko/delivery/tree/lab2.78)
