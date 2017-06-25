@@ -1,14 +1,10 @@
-*Still under development*
+## Lab 2.74 Использование Java и Javascript адаптеров для получения данных
 
-This project is a part of IBM Mobile Foundation 8.0 lab series based on hybrid development approach and Ionic framework 3.4.2. Lab series consist of video excersises that listener should repeat on prepare VM image. 
+**Описание:** Создать HTTP адаптеры и изменить код приложения для выполнения вызовов через  них с использованием WLResourceRequest API. Ознакомится со структурой Java и Javascript адаптеров и custom properties 
 
-## Lab 2.74 Using Java and Javascript adapters to perform backend calls
+**Время выполнения:** 30 минут 
 
-**Description:** Create HTTP adapters and modify application to perform backend calls though WLResourceRequest API using adapters. Get familiar with Java and Javascript adapter structure, custom properties 
-
-**Time to complete:** 40 minutes 
-
-*Below you can find gists that may be useful during lab execution*. 
+*Ниже вы можете найти команды и примеры кода, которые помогут вам в процессе выполнения лабораторной работы*. 
 
 ```xml
 <property name="endpoint" displayName="Endpoint" defaultValue="employees" type="string" />
