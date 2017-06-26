@@ -11,7 +11,7 @@
 * 8 ГБ оперативной памяти
 * 20 ГБ свободного места на диске
 * Последняя версия VMWare Player/Workstation
-* 7-zip архиваторв
+* 7-zip архиватор
 
 [Лабораторные работы на youtube](https://www.youtube.com/watch?v=vOtMHJlf18s&list=PLjwX5wNxSyMfgCzBSfP3N42KwdLtBTelc)
 
