@@ -19,7 +19,7 @@
 
 Описание и задачи каждой лабораторной работы можно найти в соответствующей ветке
 
-[Lab 2.74 Использование Java и Javascript адаптеров для получения данных](https://github.com/andriivasylchenko/delivery/tree/lab2.73)
+[Lab 2.73 Добавление SDK и регистрация приложения на сервере](https://github.com/andriivasylchenko/delivery/tree/lab2.73)
 
 [Lab 2.74 Использование Java и Javascript адаптеров для получения данных](https://github.com/andriivasylchenko/delivery/tree/lab2.74)
 
