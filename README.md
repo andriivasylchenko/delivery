@@ -15,7 +15,7 @@
 
 [Лабораторные работы на youtube](https://www.youtube.com/watch?v=vOtMHJlf18s&list=PLjwX5wNxSyMfgCzBSfP3N42KwdLtBTelc)
 
-[Виртуальная машина 5,5 ГБ](https://www.dropbox.com/s/n82ew21r8gfe97y/mfp-seminar-4.7z?dl=1)
+[Виртуальная машина 5,5 ГБ](https://www.dropbox.com/s/n82ew21r8gfe97y/mfp-seminar-4.7z?dl=1) Пользователь/пароль: ibm/QQqq1234
 
 Описание и задачи каждой лабораторной работы можно найти в соответствующей ветке
 
